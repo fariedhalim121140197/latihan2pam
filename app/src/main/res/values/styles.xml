@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button1" parent="Widget.AppCompat.Button">
+        <item name="android:background">
+            @drawable/btn1
+        </item>
+        <item name="android:textColor">
+            @android:color/white
+        </item>
+    </style>
+    <style name="pic1" parent="Button1">
+        <item name="android:background">
+            @android:drawable/button_onoff_indicator_off
+        </item>
+    </style>
+    <style name="picup">
+        <item name="android:foreground">
+            @drawable/ic_launcher_foreground
+        </item>
+    </style>
+</resources>
